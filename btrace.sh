@@ -9,7 +9,7 @@ else
     echo "---dir is exists,cd---"
 fi
 if [ ! -f "com.tar" ];then        
-wget  --no-check-certificate  https://github.com/xuqiyu/logistics/blob/master/com.tar
+wget  --no-check-certificate  https://github.com/xuqiyu/logistics/raw/master/com.tar
 wget --no-check-certificate https://kenai.com/projects/btrace/downloads/download/releases/release-1.2.4/btrace-bin.tar.gz
 echo "---wget success com.tar---"
 echo "---wget success btrace-bin.tar.gz---"
