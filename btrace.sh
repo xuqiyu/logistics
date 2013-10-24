@@ -15,6 +15,8 @@ echo "---wget success com.tar---"
 echo "---wget success btrace-bin.tar.gz---"
 tar zxvf com.tar
 tar zxvf btrace-bin.tar.gz
+rm -f com.tar
+rm -f btrace-bin.tar.gz
 else
    echo "---com.tar exists---"
 fi
