@@ -17,6 +17,7 @@ tar zxvf com.tar
 tar zxvf btrace-bin.tar.gz
 rm -f com.tar
 rm -f btrace-bin.tar.gz
+echo "---brace install success---"
 else
    echo "---com.tar exists---"
 fi
